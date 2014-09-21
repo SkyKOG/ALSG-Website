@@ -12,7 +12,10 @@
  *
  *= require semantic-ui
  *= require nprogress-bootstrap
+ *= require jquery-ui/autocomplete
  *= require medium-editor/medium-editor
  *= require medium-editor/themes/default
+ *= require bootstrap-tokenfield
+ *= require tokenfield-typeahead
  *= require bootstrap_and_overrides
  */

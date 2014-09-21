@@ -11,9 +11,11 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery-ui/autocomplete
 //= require jquery.turbolinks
 //= require jquery_ujs
 //= require semantic-ui
+//= require bootstrap-tokenfield
 //= require twitter/bootstrap
 //= require turbolinks
 //= require nprogress

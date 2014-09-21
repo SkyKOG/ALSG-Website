@@ -4,3 +4,5 @@ jQuery ->
 
   article_header = new MediumEditor(".article-header")
   article_area = new MediumEditor(".article-area")
+
+  $("#tokenfield").tokenfield()

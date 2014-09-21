@@ -31,6 +31,7 @@ gem 'autoprefixer-rails'
 gem 'semantic-ui-rails'
 
 gem 'jquery-turbolinks'
+gem 'jquery-ui-rails'
 
 gem 'nprogress-rails'
 gem 'uglifier', '>= 1.3.0' # Use Uglifier as compressor for JavaScript assets
