@@ -73,10 +73,6 @@ group :development do
   # Quality
   gem 'rails_best_practices', require: false
   gem 'rubocop', require: false
-  gem "rubycritic", :require => false
-
-  # Security
-  gem 'brakeman', require: false
 
   #gem 'zeus' Add this as a main gem, improves performance
   #gem 'unicorn'
