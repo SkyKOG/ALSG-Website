@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'question/index'
+
+  get 'article/index'
+
   devise_for :users
   get 'home/index'
 

@@ -67,3 +67,19 @@
   .user-select(none);
   .transition(.1s background-color, .1s border-color, .1s color);
 }
+
+.tokenfield {
+  width: 100%;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  &:focus,&.focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
+  .token {
+    background: white;
+    border: 1px solid #EE8A8A;
+    color: rgba(0,0,0,0.5);
+  }
+}
