@@ -19,3 +19,51 @@
 @import "layout/_images";
 @import "layout/_nav";
 @import "layout/_forms";
+
+.article-area,.article-header {
+  font-family: 'lora', serif;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 29px;
+  color: rgba(0,0,0,0.8);
+  margin-bottom: 20px;
+}
+
+.article-header {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 80px;
+  margin-top: 60px;
+}
+
+.button {
+  display: inline-block;
+  position: relative;
+  height: 38px;
+  line-height: 36px;
+  padding: 0 16px;
+  outline: 0;
+  color: #57ad68;
+  background: rgba(0,0,0,0);
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #a9d8b2;
+  vertical-align: bottom;
+  white-space: nowrap;
+  text-rendering: optimizeLegibility;
+  -webkit-touch-callout: none;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 999em;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  .user-select(none);
+  .transition(.1s background-color, .1s border-color, .1s color);
+}

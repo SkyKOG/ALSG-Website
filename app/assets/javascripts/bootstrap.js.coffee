@@ -2,4 +2,5 @@ jQuery ->
   $("a[rel~=popover], .has-popover").popover()
   $("a[rel~=tooltip], .has-tooltip").tooltip()
 
-  editor = new MediumEditor(".editable")
+  article_header = new MediumEditor(".article-header")
+  article_area = new MediumEditor(".article-area")
