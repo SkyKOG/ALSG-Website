@@ -18,4 +18,5 @@
 //= require turbolinks
 //= require nprogress
 //= require nprogress-turbolinks
+//= require medium-editor
 //= require_tree .

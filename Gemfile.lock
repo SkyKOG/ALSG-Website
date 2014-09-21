@@ -238,6 +238,8 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    medium-editor-rails (0.11.0)
+      railties (>= 3.0)
     meta_request (0.3.4)
       callsite (~> 0.0, >= 0.0.11)
       rack-contrib (~> 1.1)
@@ -497,6 +499,7 @@ DEPENDENCIES
   less-rails
   letter_opener
   libnotify
+  medium-editor-rails
   meta_request
   net-ssh (= 2.7.0)
   nprogress-rails

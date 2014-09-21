@@ -40,6 +40,8 @@ gem 'jquery-fileupload-rails'
 gem 'asset_sync'
 gem 'jquery-rails'
 
+gem 'medium-editor-rails'
+
 # Architecture
 gem 'settingslogic'
 
